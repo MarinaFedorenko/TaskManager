@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+
+body {
+        background-color: #8ed4cf
+    }
+    .column{
+        width: 400px;
+        margin:60px 40px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+    }
+    input{
+        width: 100%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+</style>
+
+<div align="center" class="column">
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{form}}
+        <input class="input btn-success" type="submit" name="Update Task" value="Done!">
+    </form>
+</div>
