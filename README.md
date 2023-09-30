@@ -1,3 +1,2 @@
 # TaskManager
-Работан менеджер задач в виде списка, в который пользователь сможет записывать задачи на определенный день в календаре, 
-а затем просматривать их, редактировать либо же удалять.
+It's a task manager in the form of a list, where the user can record tasks for a specific day, and then view, edit, or delete them.
